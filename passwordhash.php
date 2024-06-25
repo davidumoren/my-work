@@ -8,6 +8,7 @@ $input = "test123";
 echo"<br>";
 $hashedpwd = password_hash("test123", PASSWORD_DEFAULT);
 echo password_verify($input,$hashedpwd);
+echo "Hello world"
 
 // function generateKey(){
 
